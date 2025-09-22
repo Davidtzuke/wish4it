@@ -45,7 +45,7 @@ button, a {
 
 /* Light theme spotlight card */
 .light .spotlight-card {
-  background: color-mix(in srgb, var(--spot-surface, #FFFFFF) 96%, transparent);
+  background: color-mix(in srgb, var(--spot-surface, #FFFDFA) 96%, transparent);
 }
 .light .spotlight-card::before {
   background:
@@ -125,12 +125,12 @@ button, a {
 }
 
 /* Light theme button styles */
-.light .bg-white\/10 {
-  background-color: rgba(243, 244, 246, 0.8);
+.light .bg-\[\#FFFDFA\]\/10 {
+  background-color: rgba(255, 253, 250, 0.1);
 }
 
-.light .hover\:bg-white\/20:hover {
-  background-color: rgba(243, 244, 246, 1);
+.light .hover\:bg-\[\#FFFDFA\]\/20:hover {
+  background-color: rgba(255, 253, 250, 0.2);
 }
 
 /* Glowing effect theme support */

@@ -44,7 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <header className="fixed top-0 z-40 w-full border-b border-border/60 bg-black/40 backdrop-blur-md" style={{top: '1.3rem'}}>
             <div className="container flex h-16 items-center justify-between">
               <div className="flex items-center gap-3">
-                <div className="bg-white rounded-lg p-1">
+                <div className="bg-[#FFFDFA] rounded-lg p-1">
                   <Image 
                     src="/logo.png" 
                     alt="Wish4It" 
@@ -63,7 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </nav>
               <div className="flex items-center gap-3">
                 <ThemeToggle />
-                <a href="/contact" className="rounded-lg bg-white/10 px-4 py-2 text-sm hover:bg-white/20">
+                <a href="/contact" className="rounded-lg bg-[#FFFDFA]/10 px-4 py-2 text-sm hover:bg-[#FFFDFA]/20">
                   Join Waitlist
                 </a>
               </div>

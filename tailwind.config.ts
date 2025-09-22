@@ -22,7 +22,7 @@ export default {
   			},
   			surface: {
   				DEFAULT: '#0E1624',
-  				light: '#FFFFFF'
+  				light: '#FFFDFA'
   			},
 			border: {
 				DEFAULT: '#223047',

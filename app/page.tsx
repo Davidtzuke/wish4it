@@ -29,15 +29,15 @@ export default function HomePage() {
         <p className="text-xs sm:text-sm text-muted mb-8 text-center">Plug and play shopping assistants for e-commerce</p>
         <p className="text-xs sm:text-sm text-muted mb-8 text-center">Designed to boost conversion rates by up to 25%.</p>
         <div className="flex flex-col items-center justify-center gap-4">
-          <a href="/contact" className="rounded-lg bg-white/10 px-6 md:px-8 py-3 md:py-4 text-base md:text-lg hover:bg-white/20 transition-colors">Join Waitlist</a>
+          <a href="/contact" className="rounded-lg bg-[#FFFDFA]/10 px-6 md:px-8 py-3 md:py-4 text-base md:text-lg hover:bg-[#FFFDFA]/20 transition-colors">Join Waitlist</a>
           <button 
             onClick={handleOpenModal}
-            className="rounded-lg border border-border px-6 py-3 hover:bg-white/10 transition-colors"
+            className="rounded-lg border border-border px-6 py-3 hover:bg-[#FFFDFA]/10 transition-colors"
             type="button"
           >
             Watch Explanation
           </button>
-          <a href="/features" className="rounded-lg border border-border px-4 py-2 text-sm hover:bg-white/10 transition-colors">See More</a>
+          <a href="/features" className="rounded-lg border border-border px-4 py-2 text-sm hover:bg-[#FFFDFA]/10 transition-colors">See More</a>
         </div>
       </div>
 
@@ -51,7 +51,7 @@ export default function HomePage() {
               <h4 className="font-semibold">Wish4It™ — Explanation</h4>
               <button 
                 onClick={handleCloseModal}
-                className="rounded-md bg-white/10 px-3 py-1 hover:bg-white/20 transition-colors"
+                className="rounded-md bg-[#FFFDFA]/10 px-3 py-1 hover:bg-[#FFFDFA]/20 transition-colors"
                 type="button"
               >
                 Close

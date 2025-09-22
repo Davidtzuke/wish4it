@@ -18,7 +18,7 @@ export default function ContactPage() {
               type="email" 
               name="email" 
               required 
-              className="mt-1 w-full rounded-md border border-border bg-black/30 px-3 py-2 outline-none focus:border-white/60" 
+              className="mt-1 w-full rounded-md border border-border bg-black/30 px-3 py-2 outline-none focus:border-[#FFFDFA]/60" 
             />
           </div>
           <div>
@@ -32,7 +32,7 @@ export default function ContactPage() {
           </div>
           <button 
             type="submit" 
-            className="rounded-lg bg-white/10 px-5 py-2 hover:bg-white/20 transition-colors"
+            className="rounded-lg bg-[#FFFDFA]/10 px-5 py-2 hover:bg-[#FFFDFA]/20 transition-colors"
           >
             Join Waitlist
           </button>
