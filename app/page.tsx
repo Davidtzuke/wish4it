@@ -31,7 +31,7 @@ export default function HomePage() {
         <div className="flex flex-col items-center justify-center gap-4">
           <a href="/contact" className="rounded-lg bg-white/10 px-6 md:px-8 py-3 md:py-4 text-base md:text-lg hover:bg-white/20 transition-colors">Join Waitlist</a>
           <button 
-            onClick={handleOpenModal} 
+            onClick={handleOpenModal}
             className="rounded-lg border border-border px-6 py-3 hover:bg-white/10 transition-colors"
             type="button"
           >
@@ -50,7 +50,7 @@ export default function HomePage() {
             <div className="flex justify-between items-center mb-2">
               <h4 className="font-semibold">Wish4It™ — Explanation</h4>
               <button 
-                onClick={handleCloseModal} 
+                onClick={handleCloseModal}
                 className="rounded-md bg-white/10 px-3 py-1 hover:bg-white/20 transition-colors"
                 type="button"
               >
