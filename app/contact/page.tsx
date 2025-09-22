@@ -57,7 +57,7 @@ export default function ContactPage() {
               className="underline hover:text-text text-sm"
               href="https://www.linkedin.com/in/ciprian-nitipir-0885b6343/"
             >
-              Ciprian Nițipîr
+              Ciprian Nitipir
             </a>
           </div>
         </div>
